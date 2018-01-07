@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "build": " cross-env NODE_ENV=production webpack -p",
-    "start": "webpack-dev-server --content-base public --debug --hot --output-pathinfo --watch --inline "
+    "start": "webpack-dev-server --content-base public --debug --hot --output-pathinfo --watch --inline  --port 8080"
   },
   "author": "Alexandr",
   "license": "ISC",
   "dependencies": {
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
     "babel-preset-env": "^1.6.1",
+    "dev": "^0.1.3",
     "emoji-green-heart": "^1.3.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
