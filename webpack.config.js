@@ -39,6 +39,10 @@ module.exports = {
                 'NODE_ENV':JSON.stringify(NODE_ENV)
             }
         })
-    ]
+    ],
+
+    devServer: {
+        historyApiFallback: true,
+    }
 
 };
