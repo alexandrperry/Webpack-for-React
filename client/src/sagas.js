@@ -19,7 +19,7 @@ export  function* watcher(){
 
 export function* testSaga(action) {
     console.log('Action',action);
-    let test = `${action.payload}WOOOOW`
+    let test = `${action.payload}`
     try {
         yield put(meow(test))
     }

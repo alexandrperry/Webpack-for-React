@@ -19,7 +19,7 @@ class App extends Component {
         return (
             <div>
                 <h1>Hello</h1>
-                <button onClick={()=>this.props.gav({'name':'LOOOL'})}>Go</button>
+                <button onClick={()=>this.props.gav('LOOOL')}>Go</button>
             </div>
         );
     }
